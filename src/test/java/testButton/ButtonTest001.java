@@ -1,9 +1,10 @@
 package testButton;
 
+import org.letcode.Base.letCodeBase;
 import org.letcode.pages.LoginPage;
 import org.testng.Assert;
 
-public class ButtonTest001 {
+public class ButtonTest001 extends letCodeBase  {
 
 	LoginPage lp = new LoginPage(driver);
 	boolean usernamelabel = lp.getUsernameLabel();
